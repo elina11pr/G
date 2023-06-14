@@ -1,0 +1,689 @@
+
+body {
+  background-color: black;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 16px/28px 'Lobster', Arial, 'Playfair Display', sans-serif;
+  }
+  
+header {
+    background-color: #000000;
+    color: white;
+  }
+  
+.profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+  
+.logo img {
+    height: 90px;
+  
+}
+  
+nav ul {
+    margin: 20;
+    padding: 100;
+    list-style: none;
+  }
+  
+nav ul li {
+    display: inline-block;
+    margin-right: 80px;
+  }
+  
+nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+nav ul li a:hover {
+    color: rgb(176, 11, 11);
+  }
+  
+.search {
+    display: flex;
+    align-items: center;
+  }
+  
+.search input {
+    padding: 5px;
+    margin-right: 10px;
+    
+  }
+  
+.search button {
+    padding: 2px 10px;
+    background-color: #333;
+    color: rgb(221, 199, 199);
+    border: none;
+    cursor: pointer;
+    top:50%;
+    background-color:#761515;
+    color: #e1d7d7;
+    border:none;
+    border-radius:10px;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+  }
+  /* Частина з банером */
+  
+  @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700&display=swap');
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  body {
+      color: #FFF;
+      font: 16px/28px 'Be Vietnam Pro', Arial, Helvetica, sans-serif;
+      background-color: #000;
+  }
+  a {
+      color: inherit;
+      text-decoration: none;
+      transition: .4s;
+  }
+  ul li {
+      list-style: none;
+  }
+  img {
+      max-width: 100%;
+      max-height: 100%;
+  }
+  button {
+      display: block;
+      border: none;
+      background-color: transparent;
+      font: inherit;
+      cursor: pointer;
+      transition: .4s;
+  }
+  .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 10px;
+  }
+  .title-section {
+      margin-bottom: 40px;
+      font-size: 52px;
+      line-height: 64px;
+      letter-spacing: 0.6px;
+      text-align: center;
+  }
+  .btn-primary {
+      padding: 12px 24px;
+      font-weight: 600;
+      background-color: #a91c1c;
+  }
+  .btn-primary:hover {
+      background-color: #ef1010;
+  }
+  .btn-secondary {
+      padding: 12px 24px;
+      border: 1px solid #ae0813;
+      color: #ee1317;
+      font-weight: 600;
+      line-height: 24px;
+  }
+  
+  /* Header */
+  #header-section {
+      padding: 40px 0 107px;
+  }
+  .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: 600;
+  }
+  .header-logo__img,
+  .footer-about__img {
+      width: 48px;
+      height: 48px;
+  }
+  .nav-main {
+      margin-left: auto;
+  }
+  .nav-main__list {
+      display: flex;
+      gap: 48px;
+      margin-right: 72px;
+  }
+  .nav-main__link:hover {
+      color: #ee131a;
+  }
+  
+  /* Banner */
+  #banner-section {
+      position: relative;
+      overflow: hidden;
+      padding-bottom: 60px;
+  }
+  .banner {
+      max-width: 475px;
+      padding-top: 45px;
+  }
+  .banner__header {
+      font-size: 52px;
+      line-height: 64px;
+      letter-spacing: 0.6px;
+  }
+  .banner__text {
+      margin: 32px 0 48px;
+      color: rgb(255 255 255 / 80%);
+      font-size: 17px;
+  }
+  .banner-links-wrap {
+      display: flex;
+      align-items: center;
+      gap: 35px;
+      margin-bottom: 40px;
+  }
+  .banner-features__text {
+      font-weight: 600;
+      line-height: 24px;
+  }
+  .banner-features__text:first-child {
+      margin-right: 40px;
+  }
+  .banner-features__text_strong {
+      margin-right: 16px;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 52px;
+      vertical-align: sub;
+  }
+  .banner-img {
+      position: absolute;
+      width: 45%;
+      height: 90%;
+      top: 0;
+      right: 0;
+      
+  }
+  .banner-img::before {
+      position: absolute;
+      content: '';
+      z-index: 2;
+      top: 0;
+      right: 0;
+      width: 90%;
+      height: 100%;
+      background: url(img/WD.png) no-repeat;
+     }
+  .banner-img::after {
+      position: absolute;
+      content: '';
+      z-index: 1;
+      top: 0;
+      right: 0;
+      width: 75%;
+      height: 100%;
+      background-color: rgb(52 52 52 / 30%);
+  }
+  
+  /* Rent */
+#game-section {
+  padding: 120px 0;
+}
+.game-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+.game {
+  position: relative;
+  height: 300px;
+  font-weight: 600;
+  background: url(img/2.jpg) 50%/cover no-repeat;
+}
+.game:nth-child(2) {
+  background-image: url(img/3.jpg);  
+}
+.game:nth-child(3) {
+  background-image: url(img/4.jpg);
+}
+.game:nth-child(4) {
+  background-image: url(img/5.jpg);
+}
+.game:nth-child(5) {
+  background-image: url(img/6.jpg);
+}
+.game:nth-child(6) {
+  background-image: url(img/7.jpg);
+}
+.game__name {
+  position: absolute;
+  top: 48px;
+  left: 48px;
+  font-size: 40px;
+  letter-spacing: 0.6px;
+}
+.game__link {
+  position: absolute;
+  bottom: 48px;
+  right: 60px;
+  padding-right: 30px;
+  font-size: 24px;
+  letter-spacing: 0.6px;
+}
+.game__link:hover {
+  color: #d72222;
+}
+.game__link::after {
+  position: absolute;
+  content: '';
+  top: 50%;
+  right: 0;
+  width: 8px;
+  height: 16px;
+  background: url(img/arrow.svg) 50%/cover no-repeat;
+  transform: translateY(-50%);
+}
+
+
+/* Services */
+#topnews-section {
+  padding-bottom: 120px;
+}
+.topnews-section__title {
+  margin-bottom: 66px;
+  text-align: center;
+}
+.topnews-wrap {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.topnews__img {
+  margin-bottom: 24px;
+}
+.topnews__title {
+  margin-bottom: 16px;
+  font-size: 24px;
+  line-height: 32px;
+}
+.topnews__text {
+  color: rgb(255 255 255 / 80%);
+}
+
+/* Destination */
+#destination-section {
+  padding-bottom: 162px;
+}
+.destination-section__title {
+  width: 590px;
+  margin: 0 auto 40px;
+}
+.destination-wrap {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+.destination {
+  border: 1px solid #171717;
+  background-color: #171717;
+}
+.destination-info {
+  padding: 24px;
+}
+.destination__title {
+  font-size: 24px;
+  line-height: 32px;
+}
+.destination__text {
+  margin: 10px 0 25px;
+  color: rgb(255 255 255 / 80%);
+}
+.destination__price {
+  position: relative;
+  display: block;
+  margin-bottom: 17px;
+  padding-left: 42px;
+  font-weight: 600;
+}
+.destination__price::before {
+  position: absolute;
+  content: '';
+  top: 50%;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  background: url(img/car_icon.svg) no-repeat;
+  transform: translateY(-50%);
+}
+.destination__link {
+  color: #ee1313;
+}
+.destination__link:hover {
+  color: #ef1014;
+}
+
+  
+/* Стилі для заголовка галереї */
+    .gallery-title {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+/* Стилі для контейнера галереї */
+    .gallery-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+/* Стилі для окремого елементу галереї */
+    .gallery-item {
+      width: 200px;
+      height: 200px;
+      margin: 10px;
+      overflow: hidden;
+      position: relative;
+      transition: transform 0.3s ease;
+    }
+    
+/* Стилі для затемнення та збільшення зображення при наведенні курсора */
+    .gallery-item:hover {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+      z-index: 1;
+    }
+    
+    .gallery-item:hover img {
+      transform: scale(1.2);
+    }
+    
+/* Стилі для випливаючого тексту при наведенні на зображення */
+    .gallery-item:hover .caption {
+      opacity: 1;
+      transform: translateY(-50%);
+    }
+    
+/* Стилі для підпису під кожним зображенням */
+    .gallery-item .caption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.7);
+      color: #fff;
+      padding: 8px;
+      text-align: center;
+      font-size: 14px;
+      opacity: 0;
+      transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+    
+/* Стилі для адаптивного зображення */
+    .gallery-item img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+    .conteiner1 {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 10px;
+      
+    }
+    /* Footer */
+#footer-section {
+  padding-top: 40px;
+  background-color: #000000;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 55px;
+}
+.footer-logo-wrap {
+  display: flex;
+  align-items: center;
+  gap: 7px;   
+  margin-bottom: 14px;
+  font-weight: 500px;
+}
+
+
+.footer-about__text {
+  max-width: 235px;
+  font-size: 18px;
+  line-height: 32px;
+}
+.footer-nav-wrap {
+  display: flex;
+  justify-content: space-between;
+  gap: 45px;
+  margin: 40px 100px 0 auto;
+}
+.footer-nav__header {
+  margin-bottom: 32px;
+  font-size: 18px;
+  line-height: 20px;
+}
+.footer-nav__item {
+  margin-bottom: 28px;
+  line-height: 20px;
+}
+.footer-nav__link {
+  color: rgb(255 255 255 / 80%);
+}
+.footer-nav__link:hover {
+  color: #ee1313;
+}
+.footer-social__link {
+  display: block;
+  width: 120px;
+  height: 30px;
+  margin-bottom: 45px;
+  
+}
+
+.widget-title{
+  margin-bottom: 32px;
+  font-size: 18px;
+  line-height: 55px;
+  margin: 29px 60px 0 auto;
+}
+
+.footer-copyright {
+    padding: 20px 0;
+    background-color: #ee1313;
+}
+.footer-copyright__text {
+    text-align: center;
+}
+
+/* Сторінка новин*/
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  padding: 150px;
+  
+}
+.text__header{
+  text-align: center;
+  margin-bottom: -150px;
+  max-width: 1400px;
+  padding: 70px;
+}
+
+.gallery-item {
+  position: relative;
+  width: 330px;
+  height: 430px;
+  margin: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.gallery-item .caption {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  transition: color 0.3s;
+}
+
+.gallery-item:hover {
+  transform: scale(1.1);
+}
+
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
+
+.gallery-item:hover .caption {
+  color: red;
+}
+/* Стилі для сторінки про нас*/
+.section_pro {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: -90px;
+  max-width: 1300px;
+  padding: 100px;
+}
+
+.history {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contentpro {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.contentpro img {
+  max-width: 100px;
+  margin-right: 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+/* Форма*/
+.form-container {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: linear-gradient(to bottom right, black, red, black, red);
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #191212;
+  border-radius: 3px;
+  color: black;
+  background-color: white;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.form-group input[type="submit"] {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover {
+  background-color: darkred;
+}
+
+.form-group .error-message {
+  color: red;
+  font-size: 14px;
+}
+
+
+/* Жанр Екшн */
+
+
+.esc {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 20px;
+  max-width: 1300px;
+  padding: 30px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+p {
+  text-align: justify;
+  line-height: 1.5;
+}
+
+.date {
+  text-align: right;
+  margin-top: 10px;
+  font-size: 12px;
+}
